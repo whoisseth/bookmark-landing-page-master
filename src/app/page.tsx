@@ -30,15 +30,15 @@ export default function Home() {
    <p className=" hover:text-red-500">FEATURES</p>
    <p className=" hover:text-red-500">PRICING</p>
    <p className=" hover:text-red-500">CONTACT</p>
-   <button className='bg-red-500 px-4 py-2 text-white rounded-md'>LOGIN</button>
+   <button className='bg-red-500 px-4 py-2 text-white rounded-md hover:bg-white hover:text-red-500 hover:border-red-500 hover:border'>LOGIN</button>
  </div>
 
 </div>
 
 <div className="flex items-center sm:flex-row flex-col-reverse justify-between w-full">
- <div className="flex flex-col gap-5 sm:w-[50%] sm:pr-24">
-   <h4 className='font-bold text-5xl text-center'>A Simple Bookmark Manager</h4>
-   <p className="text-center">
+ <div className="flex flex-col gap-5 sm:w-[50%] sm:pr-20">
+   <h4 className='font-bold text-5xl text-center sm:text-start'>A Simple Bookmark Manager</h4>
+   <p className="text-center sm:text-start pr-4">
      A clean and simple interface to orgnize your favourite website. Open a new browser tab and see your site load instantly. Try it for free.
    </p>
    <div className="flex  gap-2 items-center justify-center">
@@ -85,9 +85,9 @@ sm:flex-row flex-col">
 ">
 <div className="flex flex-col items-center gap-5w-full">
  <p className="font-bold text-3xl text-center">Frequently Asked Questions</p>
- <p className=" text-center ">Here are some of our FAQs. If you have any other questions you'd like answere please feel free to email us.</p>
+ <p className=" text-center sm:w-[500px] w-full">Here are some of our FAQs. If you have any other questions you'd like answere please feel free to email us.</p>
 </div>
-<div className="flex flex-col gap-5 w-full">
+<div className="flex flex-col gap-5 w-full sm:px-44">
 <Faqs question={'Whate is Bookmarks?'}/>
 <Faqs question={'How can I '}/>
 <Faqs question={'Is there a mobile app?'}/>
